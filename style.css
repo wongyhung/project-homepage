@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playfair Display", "Roboto", "Times New Roman";
+}
+
+header {
+    width: 100vw;
+    height: 50vh;
+}
+
+.headerbg {
+    background-color: rgb(93, 61, 42);
+    height: 100%;
+    transition: transform 1s ease 0.5s;
+    transform-origin: left;
+    transform: skewY(0deg);
+}
+
+.headerbg.skewed {
+    transform: skewY(-7deg);
+}
+
+.aboutContainer {
+
+}
+
+.aboutContainer > img {
+    width: ;
+}
