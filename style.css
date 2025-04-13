@@ -246,3 +246,8 @@ footer > img {
         display: block;
     }
 }
+
+.phoneNumber {
+    color: inherit;
+    text-decoration: none;
+}
