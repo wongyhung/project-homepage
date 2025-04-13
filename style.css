@@ -44,7 +44,7 @@ header {
 
 .aboutContainer {
     background-color: white;
-    box-shadow: 0px 0px 10px 0px black;
+    box-shadow: 0px 0px 5px 0px black;
     grid-row: 2;
     padding: 3rem 2rem 1rem 2rem;
 }
@@ -115,7 +115,7 @@ header {
     min-width: 750px;
     display: grid;
     grid-template-rows: 1.5fr 19fr;
-    margin: 0px 3rem;
+    margin: 1rem 3rem;
 }
 
 .myWorkContainer > h2 {
@@ -156,5 +156,76 @@ header {
     .myWorkGrid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+}
+
+footer {
+    background-color: rgb(93, 61, 42);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 2rem 10vw;
+    margin-top: 5rem;
+    color: white;
+}
+
+footer > img {
+    grid-column: 2;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactInfo > p {
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo > p > img {
+    height: auto;
+    width: 2rem;
+    filter: invert(100);
+}
+
+.footerSocialLinks {
+    display: flex;
+    width: 6rem;
+    height: 2.5rem;
+    justify-content: center;
+    gap: 20px;
+    justify-self: right;
+    filter: invert(100);
+}
+
+.footerSocialLinks a img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease-out 0s;
+}
+
+.footerSocialLinks a img:hover {
+    transform: scale(1.25) rotate(720deg);
+}
+
+@media (max-width: 650px) {
+    footer > img {
+        display: none;
+    }
+
+    footer {
+        display: block;
     }
 }
