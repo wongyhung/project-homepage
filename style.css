@@ -206,12 +206,18 @@ footer > img {
     gap: 0.5rem;
 }
 
-.contactInfo > p {
+.link {
     display: flex;
     align-items: center;
+    color: inherit;
+    text-decoration: none;
 }
 
-.contactInfo > p > img {
+.link:hover {
+    text-decoration: underline;
+}
+
+.link > img {
     height: auto;
     width: 2rem;
     filter: invert(100);
@@ -247,7 +253,3 @@ footer > img {
     }
 }
 
-.phoneNumber {
-    color: inherit;
-    text-decoration: none;
-}
