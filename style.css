@@ -85,7 +85,7 @@ header {
     height: 2.5rem;
     justify-content: center;
     gap: 15px;
-    justify-self: right;
+    justify-self: end;
 }
 
 .socialLinks a img {
