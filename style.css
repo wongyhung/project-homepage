@@ -59,7 +59,7 @@ header {
     flex-direction: column;
 }
 
-.aboutContainer > img {
+.aboutContainerMain > img {
     float: left;
     max-width: 14rem;
     height: auto;
@@ -68,12 +68,12 @@ header {
     box-shadow: 0px 0px 5px 0px;
 }
 
-.aboutContainer > h2 {
+.aboutContainerMain > h2 {
     font-family: Roboto;
     margin-bottom: 0.5rem;
 }
 
-.aboutContainer > p {
+.aboutContainerMain > p {
     font-family: Roboto;
     font-size: large;
     color: rgb(80, 80, 80);
