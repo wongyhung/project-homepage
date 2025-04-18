@@ -119,8 +119,12 @@ header {
     }
 }
 
+section {
+    display: flex;
+    justify-content: center;
+}
+
 .myWorkContainer {
-    justify-self: center;
     width: 80vw;
     min-width: 750px;
     display: grid;
@@ -142,6 +146,7 @@ header {
 }
 
 .myWorkGrid {
+    justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
