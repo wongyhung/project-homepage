@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }, {
-        threshold: 0.3 // Trigger when 30% of the element is visible
+        threshold: 0.05 // Trigger when 5% of the element is visible
     });
 
     observer.observe(myWork);
